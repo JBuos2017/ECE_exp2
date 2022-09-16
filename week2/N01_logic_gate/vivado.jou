@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Fri Sep 16 20:55:38 2022
+# Process ID: 15924
+# Current directory: C:/git/ECE_exp2/week2/N01_logic_gate
+# Command line: vivado.exe C:\git\ECE_exp2\week2\N01_logic_gate\N01_logic_gate.xpr
+# Log file: C:/git/ECE_exp2/week2/N01_logic_gate/vivado.log
+# Journal file: C:/git/ECE_exp2/week2/N01_logic_gate\vivado.jou
+# Running On: DESKTOP-AT0958A, OS: Windows, CPU Frequency: 2803 MHz, CPU Physical cores: 4, Host memory: 21154 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/git/ECE_exp2/week2/N01_logic_gate/N01_logic_gate.xpr
+update_compile_order -fileset sources_1
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+set_property IOSTANDARD LVCMOS18 [get_ports [list y]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list y]]
+save_constraints

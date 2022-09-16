@@ -1,0 +1,6 @@
+week2 질문
+1. 왜 logic gate wire?
+2. implementation 후 같아짐 -> 최적화?
+3. 왜 slice 2개?
+4. 왜 {x, y, z} = 2'b110안됨?
+5. 왜 FA constraint저장 안됨?
